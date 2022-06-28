@@ -6,7 +6,7 @@ Below, I'm going to paste the instructions so you can understand what I had to r
 
 1) Crear una matriz de 3x4 (3 filas y 4 columnas) con valores creados al azar entre 1 y 10. Mostrar la matriz creada respetando el formato de 3 filas y 4 columnas por pantalla.
 
-2) Generar una matriz cuadrada, ingresando por teclado la cantidad de filas/columnas. Informar cual es la suma de los elementos ubicados en el triángulo superior de la matriz
+2) Generar una matriz ingresando por teclado la cantidad de filas/columnas. Sobre esta primer matriz, realizar la suma de filas y columnas y mostrar una segunda matriz resultante.
 
 3) Ingresar por teclado la cantidad de filas y de columnas de una matriz. Generarla con valores al azar comprendidos entre a y b. Mostrar la suma de los valores ubicados sobre la diagonal principal
 

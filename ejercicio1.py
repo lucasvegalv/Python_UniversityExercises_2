@@ -1,7 +1,3 @@
-""" 1) Crear una matriz de 3x4 (3 filas y 4 columnas) con valores creados al azar entre 1 y 10. Mostrar la matriz creada respetando el formato de 3 filas y 4 columnas por pantalla."""
-
-# matrix = [[0]*FILAS for i in range (COLS)]
-
 import random
 
 matrix = []
@@ -13,11 +9,12 @@ for i in range(3):
     value = random.randint(1, 10)
     matrix[i].append(value)
 
-print("This is the matrix:")
+print("Esta es la matriz:")
+print("------------------------")
 for row in matrix:
-    for value in row:
-        print("\t", value, end=" ")
-    print()
+  for value in row:
+      print("\t", value, end=" ")
+  print()
 
 """Explanation
 1) Declaraion of an empty array, the 'extern' one
