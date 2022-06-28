@@ -1,6 +1,3 @@
-"""
-Generar una matriz ingresando por teclado la cantidad de filas/columnas. Sobre esta primer matriz, realizar la suma de filas y columnas y mostrar una segunda matriz resultante.
-"""
 import random
 
 # Ask the user for entering the number of rows and columns
@@ -57,14 +54,14 @@ Explanation:
 4) In order to add all the elements of the first row array, we iterate through each row, and inside of it we iterate all the elements/columns. In each element's iteration, we add it to the accRow variable.
 5) Once we iterate the entire row, we append the result to that row array (creating a new column). Then repeat the same with the next row, then with the next row, and so on.
 6) Before we continue, we update the number of columns of our matrix!
-7) The last task is to do the same but with columns, so in order to do this we so the same iteration (I use 'j' in the first loop and 'i' in the second one just for the convention that 'j' is for columns and 'i' is for rows). The difference here is that we use the "father"'s index (j) to get
+7) The last task is to do the same but with columns, so in order to do this we so the same iteration (I use 'j' in the first loop and 'i' in the second one just for the convention that 'j' is for columns and 'i' is for rows). The difference here is that we want to get something like this: matrix[0][0], matrix[1][0], matrix[2][0], matrix[3][0]. See? We use the inner loop to refer the rows, so we keep in the same column while we iterate all the rows. That way we can get the matrix[j] element of each array of the matrix
+8) Finally, we print the final result, which is something like this (values are random!): 
 
-
-1) The first matrix:
-         3       7 
-         10      5 
-2) The resultant matrix:
-         3       7       10 
-         10      5       15 
-         13      12      25 
+    1) The first matrix:
+            3       7 
+            10      5 
+    2) The resultant matrix:
+            3       7       10 
+            10      5       15 
+            13      12      25 
 """

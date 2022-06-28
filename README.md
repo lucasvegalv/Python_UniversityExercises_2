@@ -12,9 +12,9 @@ Below, I'm going to paste the instructions so you can understand what I had to r
 
 4) Indicar las coordenadas del mayor valor encontrado en una matriz n*m, generada con valores aleatorios entre 100 y 1000.
 
-5) Desarrollar una función para crear una matriz de NxM (n filas y m columnas). La función recibe n y m por parámetro, la completa con valores al azar entre a y b también por parámetro y retorna la matriz creada. Si no hay valores entre a y b o alguna de las dimensiones es negativa, retornar la matriz vacía. Desarrollar un pequeño programa principal crear una matriz al azar utilizando la función y mostrar por pantalla la matriz y la suma de cada fila y cada columna.
+5) Desarrollar una función para crear una matriz de NxM (n filas y m columnas). La función recibe n y m por parámetro, la completa con valores al azar entre a y b también por parámetro y retorna la matriz creada. Si alguna de las dimensiones es negativa, retornar la matriz vacía. Además, calcular la suma de cada fila y cada columna, luego mostrarlas.
 
-6) Utilizando la función creada en el ejercicio 2, desarrollar un programa para crear dos matrices de 3x3 con valores al azar entre dos números ingresados por teclado. Verificar que el rango sea válido, caso contrario solicitar nuevamente ambos valores. Calcular la suma de sus elementos y mostrar la matriz resultante.
+6) Desarrollar un programa para crear dos matrices de 3x3 con valores al azar entre dos números ingresados por teclado. Verificar que el rango sea válido, caso contrario solicitar nuevamente ambos valores. Calcular la suma de sus elementos y mostrar la matriz resultante.
 
 7) Ingresar una cantidad de números, debe ser múltiplo de 4. Luego crear una matriz que contenga 4 elementos por fila, hasta completar la cantidad de elementos indicada. Mostrar la matriz e informar cuántas filas se crearon. Puede crear los valores al azar para crear la matriz.
 
