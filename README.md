@@ -18,13 +18,6 @@ Below, I'm going to paste the instructions so you can understand what I had to r
 
 7) Ingresar una cantidad de números, debe ser múltiplo de 4. Luego crear una matriz que contenga 4 elementos por fila, hasta completar la cantidad de elementos indicada. Mostrar la matriz e informar cuántas filas se crearon. Puede crear los valores al azar para crear la matriz.
 
-8) Desarrollar una función que genere la siguiente matriz NxM
+8) Crear una matriz cuadrada y luego crear una lista que contenga la suma de cada una de las filas de la matriz sin valores repetidos, o sea, dos filas suman igual, el valor debe estar una sola vez en la lista. Mostrar la lista por pantalla la lista ordenada de menor a mayor
 
-  1    3    5    7
-  2    4    6    8
-  9    11   13   15
-  10   12   14   16
-
-9) Crear una matriz cuadrada y luego crear una lista que contenga la suma de cada una de las filas de la matriz sin valores repetidos, o sea, dos filas suman igual, el valor debe estar una sola vez en la lista. Mostrar la lista por pantalla la lista ordenada de menor a mayor
-
-10) Ingresar valores desde el teclado en una matriz de NxM y mostrar la matriz creada. Ordenar cada una de las filas por el método de selección. Mostrar nuevamente la matriz.
+9) Ingresar valores desde el teclado en una matriz de NxM y mostrar la matriz creada. Ordenar cada una de las filas por el método de selección. Mostrar nuevamente la matriz.
