@@ -40,7 +40,7 @@ for i in range(ROWS):
 # Printing of the array with all the rows' additions
 print(f"2) This is the array with each row's addition: {rowsArr}")
 
-# Sorted array (selection sort algorithm)
+# Sorted array (Selection Sort's algorithm)
 len = len(rowsArr)
 
 for i in range(len - 1):
