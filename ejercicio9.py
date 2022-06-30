@@ -1,10 +1,3 @@
-"""
-Ingresar valores desde el teclado en una matriz de NxM y mostrar la matriz creada. Ordenar cada una de las filas por el método de selección. Mostrar nuevamente la matriz.
-"""
-
-from sqlite3 import Row
-
-
 ROWS = int(input("Enter the number of rows: "))
 COLS = int(input("Enter the number of columns: "))
 
